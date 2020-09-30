@@ -2,7 +2,8 @@
 
 /* background color transitions*/
 body {
-	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	/*background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);*/
+	background: linear-gradient(-45deg, teal,blue, turquoise, cyan);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 
@@ -194,9 +195,9 @@ padding-top: 100px;
 .form_wrapper h3{
 	padding:20px 30px 20px 30px;
 	background: #C6FFDD;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+	/*background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+	/*background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: #444;
 	color:#fff;
 	font-size:25px;
 	border-bottom:1px solid #ddd;
@@ -283,16 +284,18 @@ form.forgot_password{
 .form_wrapper .bottom a{
 	display:block;
 	clear:both;
-	padding:10px 30px;
+	padding:10px 75px;
 	text-align:right;
-	color:#ffa800;
+	color: white;
 	text-shadow:1px 1px 1px #000;
 }
 .form_wrapper a.forgot{
-	float:right;
+	/*float:right;*/
+	float:left;
+	padding-left: 30px;
 	font-style:italic;
 	line-height:24px;
-	color:#ffa800;
+	color:black;
 	text-shadow:1px 1px 1px #fff;
 }
 .form_wrapper a.forgot:hover{
